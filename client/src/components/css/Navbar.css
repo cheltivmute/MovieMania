@@ -1,0 +1,67 @@
+.navbar-main {
+    display: flex;
+    height: 50px;
+    background: rgba(0,0,0,0.9);
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar-item {
+    font-size: 30px;
+    color: white;
+    padding: 0px 25px 0px 0px;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    padding: 0px 0px 0px 10px;
+    font-size: 32px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-item:hover {
+    color: rgb(177, 177, 177);
+}
+
+.navbar-brand:hover {
+    color: rgb(177, 177, 177);
+}
+
+.navbar-brand:focus {
+  color: white !important;
+  /* Дополнительные свойства, если нужны */
+}
+
+.navbar-div-main {
+    display: flex;
+    width: calc(100% - 200px);
+    height: 50px;
+    justify-content: right;
+    padding: 0px 10px 0px 0px;
+}
+
+.navbar-div-button-admin {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navbar-div-button {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}

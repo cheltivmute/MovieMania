@@ -1,0 +1,63 @@
+.div-pick-title {
+    width: calc(100% - 24px);
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 48px;
+    margin: 10px 12px 18px 12px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.div-pick-help {
+    width: 100% - 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 38px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.div-pick-help3 {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 38px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 27px;
+    
+}
+
+.div-pick-help:first-child {
+    margin-top: 10px;
+}
+
+.div-pick-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .big-blue-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #106cfc;
+    color: white;
+    font-size: 42px;
+    border: 10px solid #3881f7;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Добавлено свойство transition */
+  }
+  
+  .big-blue-button:hover {
+    background-color: #105cd4;
+  }
+  
+  .big-blue-button:active {
+    background-color: #174589;
+  }

@@ -1,0 +1,171 @@
+.div-main {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: flex-start;
+    max-width: 98%;
+    cursor: pointer;
+    padding: 0px;
+    margin: 1%;
+    overflow: hidden;
+  }
+  
+  .div-image {
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 0 0 150px;
+  }
+  
+  .div-info {
+
+    height: 200px;
+    max-width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .div-title {
+    border: 1px solid black;
+    max-width: 1000px;
+    border-radius: 10px;
+    flex-basis: calc(100% - 170px);
+    min-width: 410px;
+    height: 30%;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px; /* Отступ сверху */
+    font-size: 36px; /* Изменение размера шрифта */
+    font-weight: bold; /* Установка текста в жирный шрифт */
+    align-items:end;
+    overflow: hidden;
+  }
+
+  .div-undertitle {
+    width: 100%;
+    font-size: 20px; /* Изменение размера шрифта */
+    color: gray /* Установка текста в жирный шрифт */
+  }
+
+  .div-undertitletext {
+    font-size: 20px; /* Изменение размера шрифта */
+  }
+  
+  .div-buttons {
+    margin: 0px 0px 0px 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    flex-basis: 150px;
+    height: 30%;
+  }
+
+  .div-button1 {
+
+    font-size: 24px;
+    margin: 15px 2.5px 0px 10px;
+  }
+
+  .div-button2 {
+    font-size: 24px;
+    margin: 15px 10px 0px 2.5px;
+  }
+  
+  .div-description {
+    border: 1px solid black;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    flex-basis: calc(100% - 170px);
+    width: 800px;
+    max-width: 1000px;
+    height: 65%;    
+    padding: 5px 10px 10px 10px; /* Отступ сверху */
+    font-size: 18px; /* Изменение размера шрифта */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Количество строк для отображения */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+  
+  .div-rating {
+    margin: 0px 0px 0px 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+    flex-basis: 150px;
+    height: 70%;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .div-rating-num {
+    font-size: 42px;
+  }
+
+  .image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://1.bp.blogspot.com/-VptBkuRLk9s/YM4O930XAJI/AAAAAAAAL7s/cT7HLxvjbyIhqHCqLgClAp2oganOMTwBwCLcBGAsYHQ/s2048/sand_B3.png");
+    background-repeat:repeat;
+    background-size: cover;
+    opacity: 0.1;
+    pointer-events: none;
+    mix-blend-mode:hard-light; /* Режим наложения - замена светлым */
+  }
+
+  .image-overlay1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://top-fon.com/uploads/posts/2023-01/1674985452_top-fon-com-p-fon-dlya-prezentatsii-pomyataya-bumaga-88.jpg");
+    background-repeat:repeat;
+    background-size: cover;
+    opacity: 0.3;
+    pointer-events: none;
+    mix-blend-mode:darken; /* Режим наложения - замена светлым */
+  }
+
+
+
+
+  /* 
+  import './css/MovieItem.css'
+  
+  .checkbox-movie-item {
+    cursor: pointer;
+    padding: 0px;
+
+  }
+
+  .form-check-input {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+  }
+
+  .form-check {
+    padding-left: 30px;
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+  } */

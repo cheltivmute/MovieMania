@@ -1,0 +1,39 @@
+.form-label-dropdown {
+    width: 100%;
+}
+
+.form-label-bar {
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 38px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-label-button1 {
+    height: 38px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-label-button2 {
+    height: 38px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-label-bar:not(:first-child) {
+    margin-top: 30px; /* Установите желаемый отступ сверху для всех элементов, кроме первого */
+}
+
+.form-label-dropdown .dropdown-menu {
+    width: 100%;
+}

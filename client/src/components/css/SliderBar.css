@@ -1,0 +1,25 @@
+.div-slider-main {
+    width: 100%;
+    height: 526px;
+    margin: 0px;
+}
+
+.div-slider-card {
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+    align-items: center;
+}
+
+.div-slider-title {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-slider-carousel {
+    margin-top: 10px;
+}

@@ -1,0 +1,80 @@
+.div-main-acc {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    height: 300px;
+    
+    padding: 0px;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  .div-image-acc {
+    border: 1px solid #000000; /* Цвет и толщина обводки */
+    border-radius: 10px;
+    flex-basis: 298px;
+    border-right: 1px solid black;
+  }
+  
+  
+  .div-info-acc {
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+  }
+  
+  .div-description-acc {
+
+    display: flex;
+    width: 100%;
+    height: 67px;
+    font-size:36px; /* Изменение размера шрифта */
+    margin-bottom: 10px;
+  }
+
+  .div-description-acc:last-child {
+    margin-bottom: none;
+  }
+
+  .div-description-acc2 {
+    border: 1px solid #000000; /* Цвет и толщина обводки */
+    border-radius: 10px;
+    width: 40%;
+    padding: 5px 10px 10px 10px;
+    height: 67px;
+    font-size:36px; /* Изменение размера шрифта */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .div-description-acc3 {
+    border: 1px solid #000000; /* Цвет и толщина обводки */
+    border-radius: 10px;
+    width: 59%;
+    margin-left: 10px;
+    padding: 5px 10px 10px 10px;
+    height: 67px;
+    font-size:36px; /* Изменение размера шрифта */
+    margin-bottom: 10px;
+  }
+  
+  .div-rating-acc {
+    padding: 15px;
+    flex-basis: 150px;
+    height: 70%;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .div-rating-num-acc {
+    font-size: 42px;
+  }
+
+  .div-movieacc-title {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
